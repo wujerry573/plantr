@@ -43,4 +43,4 @@ GARDENER.belongsTo(VEGETABLE, { as: 'favoriteVegetable' });
 
 
 
-module.exports = db;
+module.exports = {db, VEGETABLE, PLOT, GARDENER};
